@@ -7,3 +7,4 @@ Phase 1:
         stored in baseline_hashes.txt to check for tampering
     - Log SSH failed logins 
     - Alert system via writing to alerts.log
+    - (Side note) .venv/ is just for testing
