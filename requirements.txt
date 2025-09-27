@@ -1,0 +1,3 @@
+PyYAML == 6.0.1				#Parse config.yaml
+watchdog == 3.0.0 			#Real time file monitoring
+requests == 2.31.0			#Send alerts to servers

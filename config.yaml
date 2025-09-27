@@ -1,0 +1,8 @@
+monitored_files:
+  - /etc/passwd
+  - /etc/shadow
+
+ssh:
+  log_file: /var/log/auth.log
+  failed_sshlogin_threshold: 5
+  threshold_time_window: 60
