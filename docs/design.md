@@ -8,3 +8,11 @@ Phase 1:
     - Log SSH failed logins 
     - Alert system via writing to alerts.log
     - (Side note) .venv/ is just for testing
+
+Phase 2:
+
+    - Auto block suspicious IP addresses with iptables 
+    - Process monitoring: check for suspicious processes running on the system
+        - this is for attackers utilizing concept of reverse shell or nmap
+    - Add alert mechanism that sends the alert to email, slack, or etc
+    - Sign baseline to avoid tampering of hash values  
